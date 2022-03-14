@@ -5,7 +5,6 @@ from register import views
 
 
 urlpatterns = [
-    path('', views.index, name='index'),
     path('admin/', admin.site.urls),
     path('', include('frontend.urls')),
     path('register/', views.register, name='register'),
