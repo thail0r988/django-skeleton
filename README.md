@@ -1,2 +1,0 @@
-# django-skeleton
-# django-skeleton
