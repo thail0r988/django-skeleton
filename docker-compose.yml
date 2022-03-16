@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  djangoskeleton:
+    image: djangoskeleton
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
